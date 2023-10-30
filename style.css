@@ -1,0 +1,125 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para o título principal no cabeçalho */
+  h1 {
+    color: blue;
+  }
+  
+  /* Estilo para os títulos secundários nas seções */
+  h2 {
+    color: blue;
+  }
+  
+  /* Estilo para os links no rodapé */
+  footer a {
+    color: blue;
+  }
+  
+  /* Estilo para as imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Estilo para a logo */
+.logo {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  /* Estilo para a imagem da logo */
+.logo img {
+    max-width: 20%;
+    height: auto;
+}
+  
+    /* Estilo para o botão "Quero me inscrever" */
+button {
+        background-color: transparent;
+        color: blue;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-width: 2px;
+        border-color: blue;
+ }
+
+.banner-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#course-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.module{
+display: flex;
+width: 535px;
+padding: 16px 127px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin: 10px;
+border-radius: 57px;
+border: 1px solid #33A8DB;
+background: #252525;
+box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+
+.module span{
+    color: blue;
+}
+.image-container img{
+    width: auto;
+    height: auto;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .left-align {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 10px;
+    margin: 0;
+    z-index: 1;
+    
+
+    /*Tipografia*/
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: #FFF;
+  }
+
+  #professional-challenges{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
